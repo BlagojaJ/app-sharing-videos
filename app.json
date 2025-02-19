@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Aora",
+    "scheme": "aora",
+    "slug": "aora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "backgroundColor": "#161622",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jov4i4.aora"
+    },
+    "android": {
+      "package": "com.jov4i4.aora",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-video"
+    ]
+  }
+}
